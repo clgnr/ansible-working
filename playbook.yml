@@ -26,5 +26,5 @@
         force: yes
     - name: Ensure IIS is started
       win_service:
-        name: ""
+        name: "w3svc"
         state: started
