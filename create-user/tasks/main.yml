@@ -12,4 +12,3 @@
 - name: Add user to the group if not already a member
   win_command: 'net localgroup "Administrators" ansible /add'
   become: yes
-  when: "'The specified account name is already a member of the group.' not in results.stderr"
