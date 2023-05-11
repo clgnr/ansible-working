@@ -7,8 +7,8 @@
     - debug: var=result
     - name: Create a github Repo
       github_repo:
-        github_auth_key: "..."
-        username: "YOUR GITHUB USERNAME HERE"
+        github_auth_key: "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"
+        username: "clgnr"
         name: "Hello-World"
         description: "This is your first repository"
         private: yes
