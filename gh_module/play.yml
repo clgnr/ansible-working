@@ -1,7 +1,7 @@
 - hosts: localhost
   tasks:
     - name: Test that my module works
-      github_repo:
+      github_repo: https://github.com/clgnr/ansible-working.git
       register: result
 
     - debug: var=result
